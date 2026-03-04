@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Business</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background: #007bff;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2em;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 50px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .hero {
+            background: #e0f0ff;
+            padding: 100px 20px;
+            text-align: center;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+
+        .hero h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+            color: #555;
+        }
+
+        .services {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .service-card {
+            background: #fff;
+            padding: 20px;
+            flex: 1 1 250px;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .service-card h3 {
+            margin-bottom: 15px;
+            color: #007bff;
+        }
+
+        footer {
+            background: #222;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 50px;
+        }
+
+        footer a {
+            color: #007bff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>My Business</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <h2>Welcome to My Business</h2>
+        <p>Providing quality services with professionalism and dedication. Check out what we offer below.</p>
+    </section>
+
+    <section class="services" id="services">
+        <div class="service-card">
+            <h3>Service 1</h3>
+            <p>High-quality service that fits your business needs.</p>
+        </div>
+        <div class="service-card">
+            <h3>Service 2</h3>
+            <p>Reliable and efficient service with great support.</p>
+        </div>
+        <div class="service-card">
+            <h3>Service 3</h3>
+            <p>Affordable solutions that deliver real results.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 style="text-align:center; margin-bottom:20px;">Contact Us</h2>
+        <p style="text-align:center;">Email: <a href="mailto:info@mybusiness.com">info@mybusiness.com</a> | Phone: +91 9876543210</p>
+    </section>
+
+    <footer>
+        &copy; 2026 My Business. All Rights Reserved.
+    </footer>
+
+</body>
+</html>
